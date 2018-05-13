@@ -42,7 +42,7 @@
                             </div>
                             <div class="form-group" id="flag">
                                 <label>Product Detail</label>
-                                <textarea class="form-control ckeditor" id="detail" name="detail" required><?php echo ($Product->description);?></textarea>
+                                <textarea class="form-control ckeditor" id="detail" name="detail"><?php echo ($Product->description);?></textarea>
                             </div>
                             <div class="form-group">
                                 <label id="color">Available Color</label> <input type="checkbox" name="has_color" value="0">
@@ -135,7 +135,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Product Code</label>
-                                <input class="form-control" name="code" required value="{{ $Product->code }}">
+                                <input class="form-control" name="code" value="{{ $Product->code }}">
                             </div>
                             <div class="form-group">
                                 <label>Select Category</label>
@@ -154,7 +154,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Select Sub-sub-category</label>
-                                <select class="form-control" name="item" required>
+                                <select class="form-control" name="item">
                                     <option value="">Select Item</option>
                                 </select>
                             </div>

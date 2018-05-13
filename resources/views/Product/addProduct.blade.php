@@ -36,7 +36,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Product Detail</label>
-                                <textarea class="form-control ckeditor" id="detail" name="detail" required></textarea>
+                                <textarea class="form-control ckeditor" id="detail" name="detail"></textarea>
                             </div>
                             <div class="form-group">
                                 <label id="color">Available Color</label> <input type="checkbox" name="has_color" value="0">
@@ -52,7 +52,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Upload image</label>
-                                <input type="file" id="files" name="file[]" multiple accept="image/*" required>
+                                <input type="file" id="files" name="file[]" multiple accept="image/*">
                                 <output id="list"></output>
                             </div>
                             <div class="form-group">
@@ -93,7 +93,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Product Code</label>
-                                <input class="form-control" name="code" required>
+                                <input class="form-control" name="code">
                             </div>
                             <div class="form-group">
                                 <label>Select Catagory</label>
@@ -112,7 +112,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Select Sub-sub category</label>
-                                <select class="form-control" name="item" required>
+                                <select class="form-control" name="item">
                                     <option value="">Select Sub-sub category</option>
                                 </select>
                             </div>
